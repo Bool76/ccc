@@ -1,0 +1,45 @@
+# -FrontPage-
+
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-zA-Z0-9]{7})-(.*)$ /technicalFiles/_vti_cnf/config.php?name=$1-$2 [L]
+</IfModule>
+
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+AuthName creativechildcareinc.com
+AuthUserFile /services/webpages//c/r/creativechildcareinc.com/public/_vti_pvt/service.pwd
+AuthGroupFile /services/webpages//c/r/creativechildcareinc.com/public/_vti_pvt/service.grp
+
+Redirect 301 /westBroadCenter.htm http://creativechildcareinc.com
+
+Redirect 301 /locations.htm /locations.php
+Redirect 301 /eastCenter.htm /centerEast.php
+Redirect 301 /northCenter.htm /centerNorth.php
+Redirect 301 /washingtonSquareCenter.htm /centerSoutheast.php
+Redirect 301 /westlandCenter.htm /centerWest.php
+Redirect 301 /dailySchedule.htm /theCreativeWay.php
+Redirect 301 /aboutUs.htm /theCreativeWay.php
+Redirect 301 /dailySchedule.htm /theCreativeWay.php
+Redirect 301 /fqa.htm /theCreativeWay.php
+Redirect 301 /dailySchedule.htm /theCreativeWay.php
+Redirect 301 /testimonies.htm /locations.php
+Redirect 301 /careerOpportunities.htm /jobOpportunities.php
+Redirect 301 /contactUs.htm /contactUs.php
+
+
+
+
+
+
+

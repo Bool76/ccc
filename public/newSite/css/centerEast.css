@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/*File: Index CSS*/
+
+.eastCenter-header-wrapper{
+ background-image: url('/newSite/images/centers/eastCenter-header.png');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: auto;
+ height:200px;
+ display: block;
+ position: relative;
+ max-width: 1500px;
+ margin: 0 auto;
+}
+
+
+/*Tour Slider: START*/
+
+  #tour-slider-wrapper .one{
+    background-image: url('/newSite/images/centers/eastTour/east-tour-img-3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #tour-slider-wrapper .two{
+    background-image: url('/newSite/images/centers/eastTour/east-tour-img-2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #tour-slider-wrapper .three{
+    background-image: url('/newSite/images/centers/eastTour/east-tour-img-1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+/*Tour Slider: END*/
+
+
+
+
+@media (max-width: 1160px){
+
+}
+
+
+@media (max-width: 1000px){
+
+}
+
+
+@media (max-width: 950px){
+
+}
+
+
+@media (max-width: 500px){
+
+}

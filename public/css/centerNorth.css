@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/*File: Index CSS*/
+
+.northCenter-header-wrapper{
+ background-image: url('/images/centers/northCenter/north-header.png');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+}
+
+
+/*Tour Slider: START*/
+
+  #tour-slider-wrapper .one{
+    background-image: url('/images/centers/northCenter/tour/north-tour-img-1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #tour-slider-wrapper .two{
+    background-image: url('/images/centers/northCenter/tour/north-tour-img-2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #tour-slider-wrapper .three{
+    background-image: url('/images/centers/northCenter/tour/north-tour-img-3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+		#tour-slider-wrapper .four{
+    background-image: url('/images/centers/northCenter/tour/north-tour-img-4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #tour-slider-wrapper .five{
+    background-image: url('/images/centers/northCenter/tour/north-tour-img-5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #tour-slider-wrapper .six{
+    background-image: url('/images/centers/northCenter/tour/north-tour-img-6.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+		#tour-slider-wrapper .seven{
+    background-image: url('/images/centers/northCenter/tour/north-tour-img-7.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #tour-slider-wrapper .eight{
+    background-image: url('/images/centers/northCenter/tour/north-tour-img-8.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+/*Tour Slider: END*/
+
+
+
+
+@media (max-width: 750px){
+ #tour-slider-wrapper .one, #tour-slider-wrapper .two, #tour-slider-wrapper .three, #tour-slider-wrapper .four, #tour-slider-wrapper .five, #tour-slider-wrapper .six, #tour-slider-wrapper .seven, #tour-slider-wrapper .eight {
+  background-size: contain;
+ }
+}

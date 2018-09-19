@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<head>
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+<script src="/js/jquery-3.1.1.min.js"></script>
+<script src="/js/slider.js"></script>
+<script type="text/javascript">
+  $(function(){
+    $('.mobile-menu').on('click', function(){
+      $('.mobile-nav').toggleClass('open');
+    });
+  });
+
+  $(function(){
+    $('.mobile-menu-close').on('click', function(){
+      $('.mobile-nav').toggleClass('open');
+    });
+  });
+</script>
+
+<style>
+  .mobile-menu{
+    background-image: url('http://creativechildcareinc.com/newSite/images/mobile-menu.png');
+    height: 40px;
+    width: 40px;
+    float: right;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: center;
+    cursor: pointer;
+    }
+
+  #mobileNavTest-header{
+    background-color: gray;
+    height:100px;
+    }
+
+  #mobileNavTest-body{
+    background: antiquewhite;
+    text-align: center;
+    }
+
+ #mobileNavTest-footer{
+  height:100px;
+  background-color: lightgray;
+  text-align: center;
+ }
+
+ #sls_mobile_mega_menu_pop{
+   display: block;
+   float: right;
+   background-color: green;
+   position: absolute;
+   right: -200px;
+   top: 0px;
+   height: 100%;
+ }
+
+ .mobile-nav{
+   background-color: #222;
+   position: fixed;
+   top:0;
+   left:0;
+   height:100%;
+   width:100%;
+   text-align: center;
+   transform: translateX(-100%);
+   transition: transform 0.6s ease;
+ }
+
+ .mobile-nav.open{
+  transform: translateX(0);
+ }
+
+ .mobile-nav ul li{
+  list-style: none;
+  color:#fff;
+ }
+
+ .mobile-nav ul li a{
+  text-decoration: none;
+  display: block;
+  padding:10px;
+  color:#fff;
+ }
+
+ .mobile-menu-close{
+  text-transform: uppercase;
+  font-weight:700;
+  cursor: pointer;
+  float: right;
+  padding: 0 10px 0 0;
+  color: #fff;
+ }
+
+ .slider{
+  max-width: 1200px;
+  height: 500px;
+  overflow: hidden;
+  margin:30px auto;
+ }
+
+ .slider img{
+  max-width: 1200px;
+  height:500px;
+  display: none;
+ }
+
+ .previous, .next{
+  background-color: #333;
+  color:#fff;
+  border-radius: 3px;
+  border:0px;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 0 0 10px 0;
+  display: inline-block;
+  text-decoration: none;
+ }
+
+</style>
+
+</head>
+
+<div id="mobileNavTest-body">
+
+ <div id="mobileNavTest-header">
+   <div class="mobile-menu">
+     <a href="#"></a>
+   </div>
+   <nav class="mobile-nav">
+     <div class="mobile-menu-close">Close</div>
+     <ul>
+       <li>
+         <a href="http://google.com">Link 1</a>
+       </li>
+       <li>
+         <a href="http://google.com">Link 2</a>
+       </li>
+       <li>
+         <a href="http://google.com">Link 3</a>
+       </li>
+     </ul>
+    </nav>
+ </div>
+ <div class="clearfix"></div>
+ <div id="mobileNavTest-body">
+   <div class="slider">
+    <img id="1" src="/newSite/images/marquees/ccc-marquee.png" border="0" alt="Creative Childcare"/>
+    <img id="2" src="/newSite/images/marquees/teachers-marquee.png" border="0" alt="Teachers"/>
+   </div>
+   <a href="#" class="previous" onclick="prev(); return false;">Previous</a>
+   <a href="#" class="next" onclick="next(); return false;">Next</a>
+ </div>
+ <div class="clearfix"></div>
+ <div id="mobileNavTest-footer">
+   Footer section!
+ </div>
+</div>

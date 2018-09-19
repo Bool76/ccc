@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+
+/* POSSIBLE DELETE
+ ourHistory-right-wrapper
+ ourHistory-left-wrapper - Will have I have sort of version of this?
+
+*/
+
+.whereWeCame-title{
+ margin:35px 0 0 50px;
+}
+
+.ccc-org-logo{
+ display: inline-block;
+ position: relative;
+ float: right;
+ width:45%;
+ margin:0 50px 0 0;
+}
+
+.ccc-org-logo img{
+ width:200px;
+}
+
+.ccc-photo{
+ float:right;
+ width:95%;
+ margin: 150px 50px 50px 0;
+}
+
+.creativeWay-header-wrapper{
+ background-image: url('/newSite/images/theCreativeWay-header.png');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: auto;
+}
+
+
+body.theCreativeWay-page .content-wrapper{
+ text-align: center;
+}
+
+.creativeWay-center-wrapper{
+ display: inline-block;
+ position: relative;
+ width: 85%;
+ margin:0 0 50px 0;
+}
+
+.creativeWay-center-wrapper h2{
+ float:left;
+}
+
+.creativeWay-text-wrapper{
+ width:55%;
+ display: inline-block;
+ position: relative;
+}
+
+.creativeWay-text-wrapper-right{
+ float:right;
+}
+
+.creativeWay-text-wrapper-left{
+ float:left;
+}
+
+.creativeWay-contentImg{
+ display: inline-block;
+ position: relative;
+ width:35%;
+}
+
+.creativeWay-contentImg img{
+ width:100%;
+}
+
+.creativeWay-contentImg-left{
+ float:right;
+ margin:0 40px 0 0;
+}
+
+.creativeWay-contentImg-right{
+ float:right;
+ margin:0 40px 0 0;
+}
+
+
+/*Mobile Style: START*/
+@media (max-width: 950px){
+
+ .creativeWay-center-wrapper{
+  width:95%;
+ }
+
+ .text-padding{
+  padding:30px;
+ }
+
+ .creativeWay-contentImg-right{
+  display: none;
+ }
+
+ .creativeWay-text-wrapper-left{
+  float:inherit;
+  width:100%;
+ }
+
+ /*.creativeWay-contentImg{
+  width:40%;
+ }*/
+
+ .creativeWay-text-wrapper-right{
+   float: inherit;
+   width: 100%;
+ }
+
+ .creativeWay-contentImg-left{
+   float: inherit;
+   width: 40%;
+   margin: 40px 0 0 0;
+ }
+
+
+}
+
+@media (max-width: 650px){
+  .ccc-org-logo{
+    width: 40%;
+    margin: 25px 0 15px 0;
+  }
+
+  .creativeWay-center-wrapper h2{
+   float:inherit;
+  }
+}
+
+@media (max-width: 500px){
+ .creativeWay-contentImg-left{
+  width:70%;
+ }
+}
+/*Mobile Style: END*/

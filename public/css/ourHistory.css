@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+.whereWeCame-title{
+ margin:35px 0 0 50px;
+}
+
+.ourHistory-wrapper-content{
+ width:95%;
+ padding:25px 0 0 0;
+ margin:0 auto;
+}
+
+.ccc-org-logo{
+ display: inline-block;
+ position: relative;
+ width:45%;
+}
+
+.ccc-org-logo img{
+ width:200px;
+}
+
+.ccc-org-logo-container, .ccc-photo-container{
+ text-align: center;
+}
+
+.ccc-photo-container{
+ margin: 150px 50px 50px 0;
+}
+
+.ccc-photo{
+ width:95%;
+}
+
+.eastCenter-header-wrapper{
+ background-image: url('/images/ourHistory/ourHistory-header.png');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+}
+
+.ourHistory-right-wrapper{
+ display: inline-block;
+ position: relative;
+ float: right;
+ width: 55%;
+ margin:0 50px 50px 0;
+}
+
+.ourHistory-left-wrapper{
+ float:right;
+ width:35%;
+}
+
+.ourHistory-left-wrapper p{
+ color:#545454;
+ font-weight: 700;
+}
+
+
+
+/*Mobile Style: START*/
+@media (max-width: 950px){
+  .ourHistory-wrapper-content{
+   text-align: center;
+   width:85%;
+  }
+
+  .ourHistory-right-wrapper{
+   width: 100%;
+   text-align: left;
+   float: inherit;
+   margin:inherit;
+  }
+
+  .ourHistory-left-wrapper{
+   float:inherit;
+   width:100%;
+   text-align: center;
+  }
+
+  .ccc-org-logo{
+   float:inherit;
+   margin: 50px 0 0 0;
+   width:30%;
+  }
+
+  .ccc-org-logo-container{
+   margin: 0 0 20px 0;
+  }
+
+  .ccc-photo-container{
+   display: none;
+  }
+
+  .text-padding{
+   padding:30px;
+  }
+}
+
+@media (max-width: 650px){
+  .ccc-org-logo{
+    width: 40%;
+  }
+}
+
+@media (max-width: 500px){
+  .ourHistory-wrapper-content{
+    width:95%;
+  }
+}
+/*Mobile Style: END*/

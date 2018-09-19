@@ -1,0 +1,114 @@
+<!--Header: START-->
+
+<script src="/js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript">
+  $(function(){
+    $('.mobile-menu').on('click', function(){
+      $('.mobile-nav').toggleClass('open');
+    });
+  });
+
+  $(function(){
+    $('.mobile-menu-close').on('click', function(){
+      $('.mobile-nav').toggleClass('open');
+    });
+  });
+</script>
+
+
+<!--This is going to be moved when it's finalized-->
+<style>
+  .mobile-menu{
+    background-image: url('http://creativechildcareinc.com/newSite/images/mobile-menu.png');
+    height: 40px;
+    width: 40px;
+    float: right;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: center;
+    cursor: pointer;
+    }
+
+  .mobile-menu-close{
+    text-transform: uppercase;
+    font-weight:700;
+    cursor: pointer;
+    float: right;
+    padding: 0 10px 0 0;
+    color: #fff;
+    }
+
+    .mobile-nav.open{
+     transform: translateX(0);
+    }
+
+    .mobile-nav ul li{
+     list-style: none;
+     color:#fff;
+    }
+
+    .mobile-nav ul li a{
+     text-decoration: none;
+     display: block;
+     padding:10px;
+     color:#fff;
+    }
+
+    .mobile-nav{
+      background-color: #222;
+      position: fixed;
+      top:0;
+      left:0;
+      height:100%;
+      width:100%;
+      text-align: center;
+      transform: translateX(-100%);
+      transition: transform 0.6s ease;
+      z-index: 50;
+    }
+</style>
+<!--This is going to be moved when it's finalized-->
+
+
+<div id='header-container'>
+  <!--Mobile Menu: START-->
+    <div class="mobileNavHeader">
+      <div class="mobile-menu">
+        <a href="#"></a>
+      </div>
+      <nav class="mobile-nav">
+        <div class="mobile-menu-close">Close</div>
+        <ul>
+          <li>
+            <a href="http://google.com">Link 1</a>
+          </li>
+          <li>
+            <a href="http://google.com">Link 2</a>
+          </li>
+          <li>
+            <a href="http://google.com">Link 3</a>
+          </li>
+        </ul>
+       </nav>
+    </div>
+    <div class="clearfix"></div>
+  <!--Mobile Menu: END-->
+
+  <div id='ccc-logo-container'>
+  	 <img src='images/ccc-logo-wht.png'/>
+  </div>
+  <!--Desktop Navigation: START-->
+      <ul id='ccc-nav'>
+          <li id='locations-nav'><a href='#'>Locations</a></li>
+          <li id='curriculum-nav'><a href='#'>Curriculum</a></li>
+          <li id='aboutUs-nav'><a href='#'>Creative Way</a></li>
+          <li id='blog-nav'><a href='#'>Blog</a></li>
+          <li id='career-nav'><a href='#'>Career Opportunities</a></li>
+          <li id='contactUs-nav'><a href='#'>Contact Us</a></li>
+      </ul>
+  <!--Desktop Navigation: END-->
+</div>
+<!--Header: END-->

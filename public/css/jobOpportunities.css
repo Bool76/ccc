@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+.whereWeCame-title{
+ margin:35px 0 0 50px;
+}
+
+.ccc-org-logo{
+ display: inline-block;
+ position: relative;
+ float: right;
+ width:45%;
+ margin:0 50px 0 0;
+}
+
+.ccc-org-logo img{
+ width:200px;
+}
+
+.ccc-photo{
+ float:right;
+ width:95%;
+ margin: 150px 50px 50px 0;
+}
+
+.creativeWay-header-wrapper{
+ background-image: url('/newSite/images/theCreativeWay-header.png');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+}
+
+
+body .content-wrapper{
+ text-align: center;
+}
+
+.creativeWay-center-wrapper{
+ display: inline-block;
+ position: relative;
+ width: 85%;
+ margin:0 0 50px 0;
+}
+
+.creativeWay-center-wrapper h2{
+ float:left;
+}
+
+.creativeWay-text-wrapper{
+ width:55%;
+ display: inline-block;
+ position: relative;
+}
+
+.creativeWay-text-wrapper-right{
+ float:right;
+}
+
+.creativeWay-text-wrapper-left{
+ float:left;
+}
+
+.creativeWay-contentImg{
+ display: inline-block;
+ position: relative;
+ width:35%;
+}
+
+.creativeWay-contentImg img{
+ width:100%;
+}
+
+.creativeWay-contentImg-left{
+ float:right;
+ margin:0 40px 0 0;
+}
+
+.creativeWay-contentImg-right{
+ float:right;
+ margin:0 40px 0 0;
+}
+
+
+.ourLocations-container{
+ width: 100%;
+ display: inline-block;
+ position: relative;
+}
+
+.ourLocations-cta{
+ display: inline-block;
+ position: relative;
+ width: 200px;
+ height: 135px;
+ background: url('/images/ourLocations-cta-sprite.png') 0 0;
+ background-repeat: no-repeat;
+ background-size: cover;
+ left: 18%;
+ top: -50px;
+ text-decoration: none;
+}
+
+.ourLocations-cta:hover{
+ background: url('/images/ourLocations-cta-sprite.png') 0 -141px;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.content-row.howCanIApply{
+ margin: -50px 0 0 0;
+}
+
+
+.applyCircle{
+ display: inline-block;
+ position: relative;
+ border-radius: 50%;
+ width:50px;
+ height:50px;
+ font-size:1.1em;
+ background-color:#bf5700;
+ line-height: 50px;
+ text-align:center;
+ color:#fff;
+ vertical-align: top;
+}
+
+.apply-container{
+  display: inline-block;
+  position: relative;
+  margin: 15px 0 0 10px;
+}
+
+.apply-method-row p, .apply-method-row p:last-child{
+  display: inline-block;
+  position: relative;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+  margin: 0 0 10px 5px;
+}
+
+.text-padding p#apply-intro:last-child{
+ margin:0 0 15px 0;
+}
+
+#discrimination-blurb{
+ text-align: left;
+ width:55%;
+}
+
+#discrimination-blurb p{
+ color:#545454;
+}
+
+/*Mobile Style: START*/
+@media (max-width: 950px){
+
+ .creativeWay-center-wrapper{
+  width:95%;
+ }
+
+ .text-padding{
+  padding:30px;
+ }
+
+ .creativeWay-contentImg-right{
+  display: none;
+ }
+
+ .creativeWay-text-wrapper-left{
+  float:inherit;
+  width:100%;
+ }
+
+ /*.creativeWay-contentImg{
+  width:40%;
+ }*/
+
+ .creativeWay-text-wrapper-right{
+   float: inherit;
+   width: 100%;
+ }
+
+ .creativeWay-contentImg-left{
+   float: inherit;
+   width: 40%;
+   margin: 40px 0 0 0;
+ }
+
+ #discrimination-blurb{
+  margin:40px 0 0 0;
+  width:75%;
+ }
+
+}
+
+@media (max-width: 650px){
+  .ccc-org-logo{
+    width: 40%;
+    margin: 25px 0 15px 0;
+  }
+
+  .creativeWay-center-wrapper h2{
+   float:inherit;
+  }
+
+   #discrimination-blurb{
+    width:100%;
+   }
+}
+
+@media (max-width: 500px){
+ .creativeWay-contentImg-left{
+  width:70%;
+ }
+
+ .applyCircle{
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+ }
+
+ .apply-container{
+  margin:10px 0 0 10px;
+ }
+
+}
+/*Mobile Style: END*/

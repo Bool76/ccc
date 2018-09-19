@@ -1,0 +1,269 @@
+@charset "UTF-8";
+
+.whereWeCame-title{
+ margin:35px 0 0 50px;
+}
+
+.ccc-org-logo{
+ display: inline-block;
+ position: relative;
+ float: right;
+ width:45%;
+ margin:0 50px 0 0;
+}
+
+.ccc-org-logo img{
+ width:200px;
+}
+
+.ccc-photo{
+ float:right;
+ width:95%;
+ margin: 150px 50px 50px 0;
+}
+
+.creativeWay-header-wrapper{
+ background-image: url('/newSite/images/theCreativeWay-header.png');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+}
+
+
+body .content-wrapper{
+ text-align: center;
+}
+
+.creativeWay-center-wrapper{
+ display: inline-block;
+ position: relative;
+ width: 85%;
+ margin:0 0 50px 0;
+}
+
+.creativeWay-center-wrapper h2{
+ float:left;
+}
+
+.creativeWay-text-wrapper{
+ width:55%;
+ display: inline-block;
+ position: relative;
+}
+
+.creativeWay-text-wrapper-right{
+ float:right;
+}
+
+.creativeWay-text-wrapper-left{
+ float:left;
+}
+
+.creativeWay-contentImg{
+ display: inline-block;
+ position: relative;
+ width:35%;
+}
+
+.creativeWay-contentImg img{
+ width:100%;
+}
+
+.creativeWay-contentImg-left{
+ float:right;
+ margin:0 40px 0 0;
+}
+
+.creativeWay-contentImg-right{
+ float:right;
+ margin:0 40px 0 0;
+}
+
+
+.ourLocations-container{
+ width: 100%;
+ display: inline-block;
+ position: relative;
+}
+
+.ourLocations-cta{
+ display: inline-block;
+ position: relative;
+ width: 200px;
+ height: 135px;
+ background: url('/images/ourLocations-cta-sprite.png') 0 0;
+ background-repeat: no-repeat;
+ background-size: cover;
+ left: 18%;
+ top: -50px;
+ text-decoration: none;
+}
+
+.ourLocations-cta:hover{
+ background: url('/images/ourLocations-cta-sprite.png') 0 -141px;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.content-row.howCanIApply{
+ margin: -50px 0 0 0;
+}
+
+
+.enrollCircle{
+ display: inline-block;
+ position: relative;
+ border-radius: 50%;
+ width:50px;
+ height:50px;
+ font-size:1.1em;
+ background-color:#bf5700;
+ line-height: 50px;
+ text-align:center;
+ color:#fff;
+ vertical-align: top;
+}
+
+.enroll-container{
+  display: inline-block;
+  position: relative;
+  margin: 15px 0 0 10px;
+}
+
+.doc-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.doc-list li{
+  margin-bottom: 10px;
+}
+
+.address-list{
+  list-style: none;
+}
+
+.address-list li{
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+
+
+.address-list h3{
+  line-height: 0;
+  margin: 0 0 15px 0;
+}
+
+.enroll-list-item{
+  margin: 15px 0 15px 0;
+}
+
+.enroll-list-item p, .enroll-list-item p:last-child{
+  display: inline-block;
+  position: relative;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+  margin: 0 0 10px 5px;
+}
+
+.text-container.enroll-doc-wrapper{
+  background-color:#bf5700;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+.text-container.enroll-doc-wrapper .text-padding{
+  padding: 20px;
+}
+
+.text-container.enroll-doc-wrapper h3{
+  font-size: 0.85em;
+  display: inline-block;
+  margin:0;
+}
+
+h2#helpFormHeader{
+  margin-top:70px;
+}
+
+.text-padding p#apply-intro:last-child{
+ margin:0 0 15px 0;
+}
+
+
+/*Mobile Style: START*/
+@media (max-width: 950px){
+
+ .creativeWay-center-wrapper{
+  width:95%;
+ }
+
+ .enroll-container{
+   width: 80%;
+ }
+
+ .address-list li{
+   display: inline-block;
+   width: 48%;
+ }
+
+ .text-padding{
+  padding:30px;
+ }
+
+ .creativeWay-contentImg-right{
+  display: none;
+ }
+
+ .creativeWay-text-wrapper-left{
+  float:inherit;
+  width:100%;
+ }
+
+ .creativeWay-text-wrapper-right{
+   float: inherit;
+   width: 100%;
+ }
+
+ .creativeWay-contentImg-left{
+   float: inherit;
+   width: 40%;
+   margin: 40px 0 0 0;
+ }
+}
+
+@media (max-width: 650px){
+  .ccc-org-logo{
+    width: 40%;
+    margin: 25px 0 15px 0;
+  }
+
+  .creativeWay-center-wrapper h2{
+   float:inherit;
+  }
+
+  .address-list li{
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px){
+ .creativeWay-contentImg-left{
+  width:70%;
+ }
+
+ .enrollCircle{
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+ }
+
+ .enroll-container{
+  margin:5px 0 0 5px;
+ }
+
+}
+/*Mobile Style: END*/

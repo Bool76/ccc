@@ -1,0 +1,596 @@
+@charset "UTF-8";
+/*File: Index CSS*/
+
+.top-wrapper{
+ width:95%;
+ display: block;
+ position: relative;
+ margin: 0 auto;
+ margin-top:50px;
+ height:35px;
+ max-width: 1200px;
+}
+
+.enrollNow-container{
+ width:100%;
+ display: inline-block;
+ position: relative;
+}
+
+.enrollNow-cta{
+ display: inline-block;
+ position: relative;
+ width: 170px;
+ height: 100px;
+ background: url('/images/enrollNow-sprite.png') 0 0;
+ background-repeat: no-repeat;
+ background-size: cover;
+ left: 8%;
+ top: -175px;
+}
+
+.enrollNow-cta:hover{
+ background: url('/images/enrollNow-sprite.png') 0 -104px;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.takeTour{
+ float:left;
+ position: relative;
+ display: inline-block;
+ top:-45px;
+}
+
+.testimonials{
+ float:left;
+ position: absolute;
+ display: inline-block;
+}
+
+.whereAreWe, .ourServices{
+ display: inline-block;
+ float: left;
+ position: relative;
+}
+
+.ourServices{
+ padding:0 0 0 15px;
+}
+
+.whereAreWe-content{
+ position: relative;
+ display: inline-block;
+ float: right;
+}
+
+.center-address{
+ display: inline-block;
+ position: absolute;
+ float: right;
+ border-left: 1px solid #fff;
+ padding: 0 0 0 25px;
+ bottom: 0;
+ left: -105px;
+}
+
+
+.center-map{
+ float:right;
+ display: inline-block;
+ position: relative;
+ margin:0 45px 0 0;
+ width: 75%;
+}
+
+.center-map a{
+ display: inline-block;
+ position: relative;
+ float: right;
+ text-decoration: none;
+}
+
+.center-map img{
+ width:100%;
+ float:right;
+
+}
+
+.center-map p{
+ font-size: 8px;
+ text-align: left;
+ padding: 0px;
+ line-height: 10px;
+}
+
+.takeTour img, .testimonials img{
+ width:40px;
+ float:left;
+}
+
+.whereAreWe img, .ourServices img{
+ width:35px;
+ float:left;
+}
+
+.takeTour h2, .whereAreWe h2, .ourServices h2, .testimonials h2{
+ display: inline-block;
+ position: relative;
+ top: 7px;
+ margin: 0;
+ margin-left: 5px;
+}
+
+.directorBio-wrapper{
+ display: inline-block;
+ position: relative;
+}
+
+.services-wrapper{
+  width: 90%;
+  text-align: left;
+  margin-top: 20px;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  display: inline-block;
+  position: relative;
+}
+
+.director-paragraph{
+  float: right;
+  width: 55%;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  margin: 25px 50px 0 0;
+}
+
+.services-wrapper p, .director-paragraph p{
+ display: inline-block;
+ position: relative;
+ padding: 0 25px 0 25px;
+}
+
+.startNow{
+ background-color:#bf5700;
+ padding:15px 25px;
+ color:#fff;
+ font-family: 'Lato'
+ font-size:.9em;
+ font-weight:200;
+ text-transform: uppercase;
+ position: relative;
+ display: inline-block;
+ float: right;
+ cursor: pointer;
+}
+
+
+/*Slider Settings: START*/
+  #tour-slider-wrapper{
+   width:100%;
+   height:100%;
+   margin-right: auto;
+   margin-left: auto;
+  }
+
+  .previous, .next{
+  		border:0px;
+  		display: inline-block;
+  		text-decoration: none;
+  	}
+
+  .previous{
+  	background: url('/images/centers/centerSliderArrows-sprite.png') 0 0;
+  	background-repeat: no-repeat;
+  	background-size: 200%;
+  }
+
+  .previous:hover{
+  	background: url('/images/centers/centerSliderArrows-sprite.png')0 -46px;
+  	background-repeat: no-repeat;
+  	background-size: 200%;
+  }
+
+  .next{
+  	background: url('/images/centers/centerSliderArrows-sprite.png')-52px 0;
+  	background-repeat: no-repeat;
+  	background-size: 200%;
+  }
+
+  .next:hover{
+  	background: url('/images/centers/centerSliderArrows-sprite.png')-52px -46px;
+  	background-repeat: no-repeat;
+  	background-size: 200%;
+  }
+
+ 	.previous, .next{
+ 		width: 50px;
+ 		height: 42px;
+ 		cursor: pointer;
+ 	}
+
+  .sliderControls{
+ 	  display: block;
+ 			position: relative;
+ 			bottom:225px;
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  .next{
+			float:right;
+		}
+
+		.slider{
+   height: 425px;
+   width:100%;
+   overflow: hidden;
+		}
+
+	.slider .slider-img{
+			height:425px;
+			display: none;
+			position: relative;
+			background-size:auto;
+			background-repeat:no-repeat;
+			background-position: center;
+		}
+/*Slider Settings: END*/
+
+
+.center-blurb-1, .center-blurb-2, .center-blurb-3, .center-blurb-4, .address-blurb{
+  margin:75px auto;
+		max-width: 1200px;
+  width:95%;
+}
+
+.center-blurb-1{
+ margin-top: 0px;
+}
+
+.center-details-blurb-content{
+ padding: 15px 0 15px 0;
+ text-align: center;
+}
+
+.center-blurb-content{
+	 padding:15px 0 15px 15px;
+  display: inline-block;
+  position: relative;
+  width:100%;
+}
+
+.center-blurb-1 .orange-cta{
+  margin-top:20px;
+		display: inline-block;
+}
+
+.center-blurb-2 h2{
+ float: left;
+}
+
+.center-blurb-3 h3.director-title-desktop{
+ float: right;
+ padding: 0 15px 0 0;
+}
+
+.center-blurb-3 .services-wrapper {
+ width:40%;
+}
+
+.center-blurb-3 .services-wrapper p:nth-child(2){
+ padding:15px 25px 0 25px;
+}
+
+.center-blurb-1 h2, .center-blurb-2 h2, .center-blurb-3 h2{
+  text-transform:uppercase;
+	 color:#fff;
+  font-size: 1.5em;
+}
+
+.center-blurb-2 p{
+ width: 44%;
+}
+
+.center-blurb-2 p:first-child{
+ padding: 0 0 0 25px;
+}
+
+.center-blurb-2 p:nth-child(2){
+ float: right;
+ padding: 0 25px 0 0;
+}
+
+.center-blurb-1 p, .center-blurb-2 p, .center-blurb-3 p{
+	 color:#fff;
+}
+
+.testimonials-container{
+ display: inline-block;
+ position: relative;
+ width: 100%;
+ text-align: center;
+ margin:55px 0 0 0;
+}
+
+.testimonial-text-container{
+ display: inline-block;
+ position: relative;
+ width:30%;
+ background-color: #bf5700;
+ text-align: left;
+ margin-right:3%;
+ box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
+ vertical-align: top;
+}
+
+.testimonial-text-container p{
+ padding: 15px 15px;
+}
+
+.testimonial-text-container p:nth-child(2){
+ text-align: right;
+}
+
+
+#teaser-2{
+	 float: right;
+  width: 42%;
+  margin-right:5%;
+}
+
+
+
+@media (max-width: 1160px){
+  .assoc-logo-container{
+			margin-right: 10px;
+		}
+}
+
+
+@media (max-width: 1000px){
+		#jobs-marquee-joinOur{
+			left:250px;
+		}
+
+  .director-paragraph{
+   width: 65%;
+  }
+
+  .enrollNow-container{
+    text-align: center;
+  }
+
+  .enrollNow-cta{
+   top:0;
+   left:0;
+  }
+
+  .sliderControls{
+   bottom:0;
+   width:650px;
+   margin-top: 10px;
+  }
+
+  .center-map{
+   margin: 0px 35px 0 0;
+  }
+
+  .center-address{
+   left:-100px;
+  }
+
+  .testimonial-text-container{
+   width:85%;
+   margin: 40px 0 0 0;
+  }
+
+  .testimonial-text-container:first-child{
+   margin:0;
+  }
+}
+
+@media(min-width: 751px){
+ .center-address-mobile{
+  display: none;
+ }
+
+ h3.director-title-mobile{
+  display: none;
+ }
+}
+
+@media (max-width: 750px){
+ .slider{
+  height:300px;
+ }
+
+ .sliderControls{
+  width:100%;
+ }
+
+ .slider .slider-img{
+  height:300px;
+ }
+
+ .previous, .next{
+  width: 40px;
+  height: 36px;
+ }
+
+ .previous{
+  background:url('/images/centers/centerSliderArrows-sprite.png') 0px 2px;
+  background-size:200%;
+  background-repeat: no-repeat;
+ }
+
+ .previous:hover{
+  background:url('/images/centers/centerSliderArrows-sprite.png')0 -35px;
+  background-size:200%;
+  background-repeat: no-repeat;
+ }
+
+ .next{
+  background:url('/images/centers/centerSliderArrows-sprite.png') -41px 0px;
+  background-size:200%;
+  background-repeat: no-repeat;
+ }
+
+ .next:hover{
+  background:url('/images/centers/centerSliderArrows-sprite.png')-41px -37px;
+  background-size:200%;
+  background-repeat: no-repeat;
+ }
+
+ .whereAreWe-content{
+  float: none;
+ }
+
+ .center-blurb-content{
+  text-align: center;
+ }
+
+ .whereAreWe, .ourServices{
+  margin: 0 0 20px 0;
+  float: none;
+ }
+
+ .center-blurb-content{
+   padding: 15px 0px;
+ }
+
+ .center-address{
+  display: none;
+ }
+
+ .center-address-mobile{
+  text-align: left;
+  display: inline-block;
+  position: relative;
+  float: none;
+  margin: 20px 0 0 0;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  padding: 0 25px 0 25px;
+ }
+
+ .center-map{
+  float: none;
+  margin:0;
+  width: 95%;
+ }
+ .center-map a{
+  float: none;
+}
+
+.services-wrapper{
+ width: 85%;
+ text-align: left;
+ margin: 0 auto;
+ float: none;
+}
+
+.director-paragraph{
+ width: 85%;
+ margin: 0 auto;
+ text-align: left;
+ float: none;
+}
+
+h3.director-title-desktop{
+ display: none;
+}
+
+h3.director-title-mobile{
+ width: 100%;
+ text-align: center;
+}
+
+.testimonial-text-container{
+ width: 90%;
+}
+
+.center-blurb-2 p{
+ width:inherit;
+}
+
+.center-blurb-2 p:nth-child(2){
+ padding: 0 0 0 25px;
+ float:left;
+}
+}
+
+@media (max-width: 650px){
+ .center-header-wrapper{
+  text-align: center;
+ }
+
+ .takeTour{
+  display: none;
+ }
+
+ .top-wrapper{
+  margin-top: 0;
+ }
+
+ .enrollNow-container{
+  margin-bottom: 15px;
+ }
+
+}
+
+
+@media (max-width: 500px){
+   .slider{
+    height:250px;
+    }
+
+   .slider .slider-img{
+     height:250px;
+    }
+
+   .sliderControls{
+    margin-top: 0;
+   }
+
+   #blurb-1, #blurb-2{
+					padding-left: 0;
+					width:100%;
+			  text-align: center;
+		   }
+
+			.blurb-content{
+				 padding:0 0 20px 0;
+			}
+
+			#blurb-1 p, #blurb-2 p{
+					text-align: left;
+					width: 98%;
+					padding-left: 5px;
+				}
+
+				#blurb-2{
+					margin-top: 50px;
+				}
+
+				#associated-logos{
+					width:95%;
+					margin-top:20px;
+				}
+
+				.assoc-logo-container{
+					 width: 40%;
+				}
+
+				.assoc-logo-container:nth-child(6){
+					 margin-top: 20px;
+				}
+
+    .center-blurb-1 h2, .center-blurb-2 h2, .center-blurb-3 h2{
+     font-size: 1.2em;
+    }
+
+    .center-address-mobile{
+     padding: 0 15px 0 15px;
+    }
+}

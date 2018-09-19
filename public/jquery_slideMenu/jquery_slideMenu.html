@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta name="robots" content="noindex, nofollow" />
+        <title>Antimath - Hamburger menu</title>
+        <style type="text/css"> 	
+			* {
+				margin: 0;
+				padding: 0;
+			}
+        	
+			body {
+				font-size: 16px;
+				line-height: 1.4;
+				font-family: Arial, Helvetica, sans-serif;
+			}
+        	
+			a, a:active, a:visited {
+			    color: #0071BB;
+			    text-decoration: none;
+			}
+			
+			a:hover,
+			a:focus {
+				text-decoration: underline;
+			}
+			
+        	#container {
+        		position: relative;
+        		width: 100%;
+				margin: 0;
+				background: #eee;
+        	}
+			
+			#header {
+				height: 80px;
+				background: #23252D;
+			}
+			
+			#navigation {
+				float: left;
+				margin-left: 20px;
+				padding: 29px 0;
+			}
+			
+			#navigation li {
+				display: inline-block;
+				*display: inline;
+				margin-right: 20px;
+				zoom: 1;
+			}
+			
+			#toggle-menu {
+				display: block;
+				float: right;
+				height: 80px;
+				width: 80px;
+				cursor: pointer;
+				text-indent: -99999em;
+				background: url("menu-button.png") no-repeat center center;
+			}
+			
+			.mobile-navigation {
+				width: 0;
+				height: 100%;
+				overflow: hidden;
+				position: fixed;
+				right: 0;
+				top: 0;
+				background: #575B5D;
+				z-index: 200;
+			}
+			
+			.mobile-navigation .close {
+				display: block;
+			    width: 18px;
+				height: 18px;
+				position: absolute;
+				right: 20px;
+				top: 37px;
+				text-indent: -99999em;
+				cursor: pointer;
+				background: url("menu-close-button.png") no-repeat center center;
+			}
+			
+			
+			.mobile-navigation ul {
+				margin: 0;
+				padding: 80px 0 0 20px;
+				list-style-type: none;
+			}
+			
+			.mobile-navigation li {
+				padding: 5px 0;
+			}
+			
+			.mobile-navigation a {
+				padding: 5px 0;
+				color: #fff;
+				text-transform: uppercase;
+				white-space: nowrap;
+			}
+			
+        </style>
+        <!-- include jQuery library -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script type="text/javascript">
+		(function($){
+			$(document).ready(function(){
+				$('#navigation').clone().prependTo('body').addClass('mobile-navigation').removeAttr('id');
+				$('div.mobile-navigation').prepend('<span class="close">Close</span>');
+
+				$('#toggle-menu').bind('click', function(){
+					if( $('div.mobile-navigation').hasClass('open') ){
+							$('div.mobile-navigation').animate({width: "300px"}, 300).removeClass('open');
+							$('#container').animate({left: "0px"}, 300);
+							} 
+							else {
+							$('div.mobile-navigation').animate({width: "210px"}, 300).addClass('open');
+							$('#container').animate({left: "-210px"}, 300);
+							}
+					});
+
+			$('div.mobile-navigation span.close').bind('click touch', function(){
+				$('div.mobile-navigation').animate({width: "0px"}, 300).removeClass('open');
+				$('#container').animate({left: "0px"}, 300);
+				});
+			});				 
+		})
+(jQuery);        
+</script>
+    </head>
+<body>
+	<div id="container">
+		<div id="header">
+			<div id="navigation">
+				<ul>
+					<li>
+						<a href="#">Lorem Ipsum</a>
+					</li>
+					<li>
+						<a href="#">Lorem Ipsum</a>
+					</li>
+					<li>
+						<a href="#">Lorem Ipsum</a>
+					</li>
+					<li>
+						<a href="#">Lorem Ipsum</a>
+					</li>
+				</ul>
+			</div>
+			<span id="toggle-menu">Menu</span>
+		</div>
+	</div>
+</body>
+</html>

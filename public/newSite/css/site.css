@@ -1,0 +1,502 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*General: START*/
+  body{
+				margin:0px;
+    background: rgba(255,255,255,0.5);
+    background-image:url('/newSite/images/bubbles-background-03.png'),linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.32) 32%, rgba(41,151,206,1) 100%);
+    background-attachment: fixed;
+    background-position: center;
+    }
+
+	 h1{
+				font-size:2.0em;
+    font-family: 'Julius Sans One', sans-serif;
+				color:#545454;
+				}
+
+	 h2{
+				font-family: 'Julius Sans One', sans-serif;
+				font-size:1.7em;
+				color:#03884e;
+				}
+
+		h4{
+				font-family: 'Lato', sans-serif;
+				font-size:0.8em;
+				color:#545454;
+				}
+
+	 p, ul li{
+			 font-size:.87em;
+			 color:#fff;
+			 font-family: 'Lato', sans-serif;
+    font-weight: 300;
+			 margin: 0px;
+			 line-height: 25px;
+			 }
+
+  a{
+   cursor: pointer;
+  }
+
+	 .clearfix {
+			 clear: both;
+			 }
+
+/*General: END*/
+
+
+/*Header General: START*/
+
+#header{
+		  background-color: rgba(84, 84, 84, 0.9);
+				position: absolute;
+				display: inline-block;
+				z-index: 100;
+				width: 100%;
+				height: 85px;
+				}
+
+ #header-container{
+  max-width: 1500px;
+  margin: 0 auto;
+ }
+
+	#ccc-logo-container{
+		float:left;
+		background-color:#03884e;
+		width:245px;
+		height:110px;
+		box-shadow: 4px 4px 10px #000;
+		position:relative;
+		top:10px;
+		margin-left:2%;
+		z-index:20;
+		}
+
+	#ccc-logo-container img{
+		padding: 12px 5px;
+		}
+
+ .header-wrapper{
+  display:block;
+  position:relative;
+  height: 200px;
+  max-width: 1500px;
+  margin:0 auto;
+ }
+
+ .center-title{
+  position: absolute;
+  display: inline-block;
+  right: 35px;
+  bottom: 0;
+ }
+
+ .center-title h1{
+  color: #03884e;
+  /*text-shadow: 1px 1px 1px #000;*/
+  font-size: 3.5em;
+  margin: 0px;
+ }
+
+/*Header General: END*/
+
+
+/*Navigation: START*/
+	#ccc-nav{
+		list-style-type: none;
+					margin: 0;
+					padding: 0;
+		float:right;
+		padding-top:60px;
+		margin-right:1%;
+		}
+
+	#ccc-nav li{
+		display:inline-block;
+		}
+
+	#locations-nav{
+		width:90px;
+		text-align:center;
+		}
+
+	#curriculum-nav{
+		width:100px;
+		text-align:center;
+		}
+
+	#aboutUs-nav{
+		width:90px;
+		text-align:center;
+		}
+
+	#blog-nav{
+		width:50px;
+		text-align:center;
+		}
+
+	#career-nav{
+		width:175px;
+		text-align:center;
+		}
+
+	#contactUs-nav{
+		width:100px;
+		text-align:center;
+		}
+
+	#ccc-nav li a{
+		font-family: 'Raleway', sans-serif;
+		font-size:.75em;
+		text-transform:uppercase;
+		text-decoration:none;
+		color:#fff;
+		}
+
+	#ccc-nav li a:hover::before{
+		content:'[';
+		padding-right:5px;
+		}
+
+	#ccc-nav li a:hover::after{
+		content:']';
+		padding-left:5px;
+		}
+/*Navigation: END*/
+
+
+
+/*Body Styling: START*/
+  .content-wrapper{
+   width:95%;
+   padding:25px 0 0 0;
+   margin:0 auto;
+  }
+
+  .content-row{
+   display: inline-block;
+   position: relative;
+   margin:0 0 85px 0;
+  }
+
+  .text-padding{
+   padding:50px;
+   text-align: left;
+  }
+
+  .text-padding p{
+   line-height: 30px;
+   margin: 0 0 15px 0;
+  }
+
+  .text-padding p:last-child{
+   margin: 0 0 0 0;
+  }
+
+  .text-container{
+    background: rgba(3, 136, 78, .9);
+    box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
+  }
+/*Body Styling: END*/
+
+
+
+/*Mobile Navigation: START*/
+  .mobileNavHeader{
+   display: none;
+   }
+
+  #mobile_menu{
+			height:40px;
+			width:40px;
+			float:right;
+			margin-right:10px;
+			margin-top:10px;
+			display: none;
+			background-image: url('/newSite/images/mobile-menu.png');
+			background-repeat:no-repeat;
+			background-size: 75%;
+			background-position: center;
+		}
+
+		#ccc-mobile-menu-popout{
+			 position: fixed;
+				display: block;
+				height:100%;
+				right:0px;
+    top:0px;
+    width:100px;
+    background-color: #545454;
+    border-left: 2px solid #bf5700;
+		}
+
+  #ccc-mobile-menu-popout ul{
+    list-style-type: none;
+    padding-left: 10px;
+  }
+
+  #ccc-mobile-menu-popout .topExpandMenu{
+    height:50px;
+    background-color:#fff;
+  }
+/*Mobile Navigation: END*/
+
+
+/*CTA: START*/
+	.orange-cta{
+		background-color:#bf5700;
+		padding:15px 25px;
+		color:#fff;
+		text-transform:uppercase;
+		text-decoration:none;
+		font-family: 'Raleway', sans-serif;
+		font-size:.95em;
+		}
+
+	.orange-cta:hover{
+		background-color:#545454;
+		transition: all 0.4s
+		}
+/*CTA: END*/
+
+
+/*Footer: START*/
+ #footer{
+
+	}
+
+ #footer-section-one{
+		 background-color:#545454;
+	}
+
+	#footer-section-two{
+			background-color:#fdecc2;
+	}
+
+	#footer-container-locations{
+			width:100%;
+			max-width: 1800px;
+			margin-right:auto;
+			margin-left:auto;
+			text-align:center;
+		}
+
+	.footer-address{
+			width:15%;
+			color:#fff;
+			margin-bottom: 25px;
+			display:inline-block;
+		}
+
+	.footer-address h4{
+			font-weight: normal;
+			color:#fff;
+			text-transform: uppercase;
+   margin:15px 0 10px 0;
+	}
+
+	.footer-address p{
+			color:#fff;
+			font-size:.7em;
+			font-weight:lighter;
+			line-height:1.2em;
+		}
+
+		#footer-container-copyright{
+			 font-size: .6em;
+		 }
+
+  #footer-container-copyright p{
+   color:#545454;
+   line-height:inherit;
+  }
+
+  #footer-container-nav{
+			 text-align: center;
+		}
+
+  #footer-nav-list{
+			margin:0 auto;
+			width: 75%;
+			padding: 0px;
+   padding-top: 10px;
+		}
+
+		#footer-nav-list li, #footer-mobile-nav-list li{
+				position: relative;
+				display: inline-block;
+				font-family: 'Lato', sans-serif;
+				color:#fff;
+				font-size: .6em;
+				font-weight: normal;
+				text-align: center;
+				text-transform: uppercase;
+				padding-right: 5em;
+		}
+
+		#footer-nav-list li a, #footer-nav-list li a:visited,
+		#footer-mobile-nav-list li a, #footer-mobile-nav-list li a:visited{
+			 color:#545454;
+    text-decoration: none;
+		}
+
+  #footer-nav-list li a:hover{
+   text-decoration: underline;
+  }
+
+		#footer-mobile-nav-list{
+			display: none;
+		}
+/*Footer: END*/
+
+
+@media (max-width: 1160px){
+	.footer-address{
+			width:18%;
+	}
+}
+
+@media (max-width: 950px){
+  .header-wrapper{
+   height:175px;
+  }
+
+  .center-title h1{
+   font-size: 3.0em;
+  }
+
+  #ccc-nav{
+			display: none;
+		}
+
+  #footer-section-one{
+   display: none;
+  }
+  .mobileNavHeader{
+   display: block;
+  }
+
+  #footer-section-two{
+   background-color: #545454;
+  }
+
+  #footer-nav-list li a, #footer-nav-list li a:visited, #footer-mobile-nav-list li a, #footer-mobile-nav-list li a:visited{
+   color:#fff;
+  }
+
+  #footer-section-two p{
+   color:#fff;
+  }
+
+  .mobileNavHeader .mobile-nav ul{
+   padding: 0;
+  }
+
+		#mobile_menu{
+				display: inline-block;
+				position: relative;
+		}
+
+  .wrapper-content{
+   text-align: center;
+   width:85%;
+  }
+
+		#footer-nav-list{
+    width:90%;
+		}
+
+		#footer-nav-list li, #footer-mobile-nav-list li{
+			 padding-right: 1em;
+		}
+}
+
+@media (max-width: 650px){
+  body{
+			 min-width: 300px;
+		}
+
+  #footer-mobile-nav-list{
+			 display: inline-block;
+				margin-top: 10px;
+				margin-bottom:10px;
+                                padding:0px;
+		}
+
+		#header{
+			background-color:#03884e;
+			/*box-shadow: 4px 4px 10px #000;*/
+			background-image: url('/newSite/images/ccc-logo-wht.png');
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+  .header-wrapper{
+   height: 150px;
+   text-align: center;
+  }
+
+  .center-title{
+    position: relative;
+    display: inline-block;
+    right: inherit;
+    margin: 115px 0 0 0;
+  }
+
+  .center-title h1{
+   font-size: 2.0em;
+  }
+
+ /*TEST CODE: START*/
+
+  #header-container{
+   display: inline-block;
+   float: right;
+   background:red;
+   z-index: 200;
+  }
+
+  .mobileNavHeader .mobile-nav ul{
+   padding: 0;
+  }
+
+  /*TEST CODE: END*/
+
+  #footer-nav-list{
+   display: none;
+  }
+
+  #footer-section-one{
+		  display: none;
+	 }
+
+		#footer-section-two{
+			 background-color: #545454;
+		}
+
+  #footer-nav-list li, #footer-mobile-nav-list li{
+			 font-size: .7em;
+		}
+
+		#ccc-logo-container{
+				display: none;
+		}
+}
+
+@media (max-width: 500px){
+  .wrapper-content{
+    width:95%;
+  }
+
+  .ccc-org-logo{
+    width:35%;
+  }
+
+  .wrapper-content{
+   width:95%;
+  }
+}

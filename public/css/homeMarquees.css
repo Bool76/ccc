@@ -1,0 +1,546 @@
+@charset "UTF-8";
+/*Home Marquee CSS*/
+
+/*Slider Settings: START*/
+  #image-slider-wrapper{
+  		max-width: 1500px;
+  		margin:0 auto;
+  }
+
+  .previous, .next{
+  		border:0px;
+  		display: inline-block;
+  		text-decoration: none;
+  	}
+
+  .previous{
+  	background: url('/images/marquees/slider-arrow-left.png');
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  }
+
+  .previous:hover{
+  	background: url('/images/marquees/slider-arrow-left-hover.png');
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  }
+
+  .next{
+  	background: url('/images/marquees/slider-arrow-right.png');
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  }
+
+  .next:hover{
+  	background: url('/images/marquees/slider-arrow-right-hover.png');
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  }
+
+ 	.previous, .next{
+ 		width: 30px;
+ 		height: 30px;
+ 		cursor: pointer;
+ 	}
+
+  .sliderControls{
+ 	  display: block;
+ 			position: relative;
+ 			bottom:35px;
+  }
+
+		.previous{
+			margin-left:20px;
+		}
+
+  .next{
+			float:right;
+			margin-right:20px;
+		}
+
+		.slider{
+			height: 600px;
+			overflow: hidden;
+		}
+
+	.slider .slider-img{
+			height:600px;
+			display: none;
+			position: relative;
+			background-size:auto;
+			background-repeat:no-repeat;
+			background-position: center;
+		}
+/*Slider Settings: END*/
+
+
+/*Marquee Landing: START*/
+ .one{
+   background-image: url('/images/marquees/buildingYourChilds/marquee-home-landing.png');
+ }
+
+ .landingMarquee-message{
+   position: absolute;
+   bottom:0;
+   right:0;
+   padding:20px;
+   background-color: rgba(3, 136, 78, .8);
+   font-family: 'lato';
+   color: #fff;
+   font-style: italic;
+   font-size: 1.2em;
+   margin: 50px;
+ }
+/*Marquee Landing: END*/
+
+
+/*Marquee Jobs: START*/
+ .two{
+   background-image: url('/images/marquees/joinOurTeam/ccc-jobs-marquee.png');
+ }
+
+ #jobs-marquee-applyNow{
+  background-image: url('/images/marquees/joinOurTeam/jobs-marquee-applyCircles.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  bottom: 0;
+  position: absolute;
+  margin: 0 0 60px 50px;
+  height: 160px;
+  width: 175px;
+  text-decoration: none;
+  cursor: pointer;
+ }
+
+ #jobs-marquee-applyNow p{
+   text-align: center;
+   margin: 75px 25px 0 0;
+   color:#fff;
+   font-weight: 700;
+   font-size: 1.2em;
+   font-style: italic;
+ }
+
+ #jobs-marquee-joinOur{
+  background-image: url('/images/marquees/joinOurTeam/jobs-marquee-joinCircles.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  top: 110px;
+  left: 350px;
+  position: absolute;
+  height: 150px;
+  width: 200px;
+  text-decoration: none;
+ }
+
+ #jobs-marquee-joinOur p{
+  text-align: center;
+  margin: 70px 0 0 0;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 400;
+ }
+
+ #jobs-marquee-joinOur p a{
+  text-decoration: none;
+ }
+
+ #jobs-marquee-ourCompany-desktop{
+   background-image: url('/images/marquees/joinOurTeam/jobs-marquee-paraCircle.png');
+   background-repeat: no-repeat;
+   display: inline-block;
+   bottom: 0;
+   right: 0;
+   height: 700px;
+   width:550px;
+   background-position: right;
+   background-size: contain;
+   position: absolute;
+ }
+
+ #jobs-marquee-ourCompany-desktop #jobs-marquee-ourCompany-desktopCopy{
+  margin: 290px 20px 0 0;
+  width: 58%;
+  float: right;
+  font-size: 1.4em;
+  color: #545454;
+  line-height: 2em;
+ }
+
+ #jobs-marquee-ourCompany-desktop #jobs-marquee-ourCompany-desktopCopy strong{
+  text-transform: uppercase;
+  color:#03884e;
+ }
+
+ #jobs-marquee-ourCompany-mobile{
+  display: none;
+ }
+/*Marquee Jobs: END*/
+
+
+/*Marquee StepUp: START*/
+		.slider .slider-img.three{
+				background-image: url('/images/marquees/stepUpToQuality/stepUp-marquee-3.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+		}
+
+  .stepUp-marquee-blueStar{
+   float:left;
+   width:75%;
+   height:900px;
+   background-image: url('/images/marquees/stepUpToQuality/stepUp-blueStar.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+   position: relative;
+   display: inline-block;
+   left:-15%;
+   top:-15%;
+  }
+
+  .stepUp-marquee-stepUpMessage{
+   position: relative;
+   display: inline-block;
+   top: 37%;
+   left: 37%;
+  }
+
+  .stepUp-marquee-blueStar h2{
+   margin: 10px 0 10px 0;
+  }
+
+  .stepUp-marquee-blueStar h2, .stepUp-marquee-redStar h2 {
+   color:#fff;
+  }
+
+  .stepUp-marquee-blueStar p{
+   color:#fff;
+   width:35%;
+  }
+
+  .largerLetter{
+   font-size:2.5em;
+   display: inline-block;
+  }
+
+  .stepUp-marquee-redStar{
+   float: right;
+   height:450px;
+   width:450px;
+   top:300px;
+   right:0;
+   background-image: url('/images/marquees/stepUpToQuality/stepUp-redStar.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+   position:absolute;
+   display: inline-block;
+  }
+
+  .stepUp-marquee-allCentersMessage{
+   position: relative;
+   display: inline-block;
+   margin: 120px 0 0 130px;
+   width:40%;
+  }
+
+  .stepUp-marquee-redStar h2{
+   font-size: 1.3em;
+   margin: 10px 0 0 0;
+  }
+
+  .stepUp-marquee-redStar p{
+   color:#fff;
+  }
+
+  .stepUp-logo-container img{
+    position: absolute;
+    width:11%;
+    top:100px;
+    right:20px;
+  }
+
+  .stepUp-cta{
+   position: absolute;
+   bottom:75px;
+   right:35%;
+   background: #464646;
+   text-transform: uppercase;
+   font-family: 'Lato';
+   font-weight:200;
+   font-size: 1.0em;
+   padding:15px 20px;
+   color: #fff;
+   text-decoration: none;
+  }
+
+  .stepUp-cta:hover{
+   background-color:#bf5700;
+   transition: all 0.4s;
+  }
+
+/*Marquee StepUp: END*/
+
+
+@media (max-width: 1160px){
+ .stepUp-cta{
+  bottom:300px;
+  right:25%;
+  font-size: .9em;
+  padding: 10px 15px;
+ }
+}
+
+
+@media (max-width: 950px){
+  .slider{
+    height:450px;
+  }
+
+  /*Marquee Landing: START*/
+    .landingMarquee-message{
+      bottom:inherit;
+      top:300px;
+      margin: 0 30px 0 0;
+    }
+  /*Marquee Landing: END*/
+
+  /*Marquee JOBS: START*/
+    #jobs-marquee-ourCompany-desktop{
+      right:-160px;
+    }
+
+    #jobs-marquee-ourCompany-desktop #jobs-marquee-ourCompany-desktopCopy{
+      margin: 275px 160px 0 0;
+      font-size: 1.1em;
+      width: 40%;
+      line-height: 1.5em;
+    }
+
+    #jobs-marquee-joinOur{
+      left: 125px;
+      height: 125px;
+      width: 175px;
+      top: 150px;
+    }
+
+    #jobs-marquee-joinOur p{
+     margin: 55px 0 0 0;
+     font-size: 1.2em;
+    }
+
+    #jobs-marquee-applyNow{
+     bottom: 100px;
+     height: 120px;
+    }
+
+    #jobs-marquee-applyNow p{
+     margin: 50px 20px 0 0;
+     font-size: 1.1em;
+    }
+  /*Marquee JOBS: END*/
+
+
+  /*Marquee STEP UP: START*/
+  .stepUp-marquee-blueStar h2{
+   font-size:1.2em;
+  }
+
+  .stepUp-marquee-blueStar p, .stepUp-marquee-redStar p{
+   line-height: 18px;
+   font-size:0.75em;
+  }
+
+  .stepUp-marquee-stepUpMessage{
+   top:39%;
+  }
+
+  .stepUp-marquee-redStar{
+    height:350px;
+    width:350px;
+    top:25px;
+    right:-95px;
+  }
+
+  .stepUp-marquee-allCentersMessage{
+    margin: 90px 0 0 100px;
+  }
+
+  .stepUp-marquee-redStar h2{
+   font-size:1.0em;
+  }
+
+  .stepUp-logo-container img{
+    right:240px;
+  }
+
+  .stepUp-cta{
+   bottom:200px;
+  }
+
+  /*Marquee STEP UP: END*/
+
+}
+
+
+@media (max-width: 650px){
+  /*Marquee JOBS: START*/
+    #jobs-marquee-ourCompany-mobile{
+  		 background-color: #fdecc2;
+  		 display: inline-block;
+  		 position: absolute;
+  		 bottom: 200px;
+     padding: 20px;
+  		 width: 65%;
+  		 border-top: 2px solid #03884e;
+  	 }
+
+  	 #jobs-marquee-joinOur{
+  		 right: 0;
+  		 left: inherit;
+  		 top: 100px;
+  	 }
+
+  		#jobs-marquee-applyNow{
+  			bottom: inherit;
+  			top: 130px;
+  		}
+
+  	#jobs-marquee-ourCompany-mobileCopy{
+  		 font-size: 1.0em;
+     color:#545454;
+  	 }
+
+  	 #jobs-marquee-ourCompany-mobile #jobs-marquee-ourCompany-mobileCopy strong{
+  		 text-transform: uppercase;
+  		 color:#03884e;
+  	 }
+
+  	 #jobs-marquee-ourCompany-desktop{
+  		 display: none;
+  	 }
+  /*Marquee JOBS: END*/
+
+
+  /*Step Up: START*/
+    .stepUp-marquee-blueStar{
+     width:95%;
+     left:-30%;
+     height:810px;
+    }
+
+    .stepUp-marquee-blueStar h2{
+     font-size: 1em;
+    }
+
+    .stepUp-marquee-redStar h2{
+     font-size: .9em;
+    }
+
+    .stepUp-marquee-redStar{
+      display: none;
+    }
+
+    .stepUp-logo-container img{
+     width:20%;
+     top:150px;
+     right:5%;
+    }
+
+    .stepUp-cta{
+     right:15%;
+    }
+  /*Step Up: END*/
+}
+
+
+@media (max-width: 500px){
+ .slider{
+   height:350px;
+ }
+
+ .slider .slider-img{
+   background-size: cover;
+ }
+
+ /*Marquee Landing: START*/
+   .landingMarquee-message{
+     top:260px;
+     margin:0;
+     width: 100%;
+     text-align: center;
+     padding: 15px 15px;
+     background-color: rgba(191, 87, 0, .9);
+    }
+ /*Marquee Landing: END*/
+
+ /*Marquee JOBS: START*/
+   #jobs-marquee-applyNow{
+    margin:0;
+    top:100px;
+   }
+
+   #jobs-marquee-ourCompany-mobile{
+    bottom:285px;
+    width:100%;
+    padding:10px;
+   }
+
+   #jobs-marquee-ourCompany-mobileCopy{
+    font-size:.9em;
+    width:95%;
+    color:#545454;
+   }
+
+   #jobs-marquee-joinOur{
+    height:95px;
+   }
+
+   #jobs-marquee-joinOur p{
+    margin: 40px 0 0 0;
+    font-size: 0.9em;
+   }
+
+   #jobs-marquee-applyNow{
+    height:100px;
+   }
+
+   #jobs-marquee-applyNow p{
+    font-size: 0.9em;
+    margin: 45px 17px 0 0;
+   }
+ /*Marquee JOBS: END*/
+
+ /*Step Up: START*/
+   .stepUp-marquee-blueStar{
+    width:110%;
+    left:-30%;
+    height:600px;
+   }
+
+   .stepUp-marquee-stepUpMessage{
+    top:38%;
+    left:36%;
+   }
+
+   .stepUp-marquee-blueStar h2{
+    font-size:.9em;
+    margin: 5px 0 5px 0;
+   }
+
+   .stepUp-marquee-blueStar p{
+     font-size:.7em;
+   }
+
+   .stepUp-cta{
+    right:2%;
+    bottom:330px;
+    font-size: .75em;
+   }
+
+ /*Step Up: END*/
+
+}

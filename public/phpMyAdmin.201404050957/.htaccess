@@ -1,0 +1,6 @@
+AuthName phpMyAdmin Login
+AuthType Basic
+<Limit GET POST PUT DELETE HEAD>
+require anymember
+</Limit>
+ForceNoProxy On
