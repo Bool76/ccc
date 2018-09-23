@@ -49,6 +49,21 @@
 												Building your child's future... creatively.
 											</div>
 								 </div>
+                <div class="slider-img four" id="4"/>
+                  <div class="ode-message-container">
+                    <h4>
+                      It's not too late,
+                      enroll your 4 year old
+                      in our free 1/2 day
+                      preschool program
+                      TODAY!
+                    </h4>
+                </div>
+
+                <div class="landingMarquee-message">
+                    ODE Maruqee.
+                  </div>
+                </div>
 									<div class="slider-img two" id="2"/>
 											<a id="jobs-marquee-applyNow" href="jobOpportunities.php">
 													<p>
