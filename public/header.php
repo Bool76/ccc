@@ -38,9 +38,9 @@
      <div class="clearfix"></div>
    <!--Mobile Menu: END-->
 
-    <div id='ccc-logo-container'>
-    	 <a href="index.php"><img src='images/ccc-logo-wht.png'/></a>
-    </div>
+    <a href="index.php" id='ccc-logo-container'>
+    	 <img src='images/ccc-logo-wht.png'/>
+    </a>
 
     <p id="family-blurb">Family Owned & Operated Since 1970</p>
 
