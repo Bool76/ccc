@@ -294,7 +294,7 @@
     .ode-message-container{
         display: inline-block;
         background: #45327a;
-        background-image: url(/images/bubbles-background-03.png);
+        background-image: url(/images/bubbles-background-04.png);
         background-position: center;
         background-size: inherit;
         width: 20%;
@@ -304,12 +304,12 @@
     }
 
     .ode-message-container h4{
-        font-family: 'Josefin Sans', sans-serif;
+        /*font-family: 'Josefin Sans', sans-serif;*/
         color: white;
         padding: 25% 0 0 0;
-        text-align: left;
-        font-size: 2.25em;
-        line-height: 1.75em;
+        text-align: right;
+        font-size: 2.3em;
+        line-height: 1.65em;
         width: 90%;
         display: inline-block;
     }
@@ -327,8 +327,60 @@
         margin: 50px;
     }
 
-    .ode-message{
+    .ode-blurbs{
+        display: inline-block;
+        position: relative;
+        color:#545454;
+        color: #03884e;
+        /*background-color:#03884e;*/
+        padding: 10px;
+        width: 50%;
+        font-size: 0.90em;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height:1.5em;
+        border-radius: 5px;
+        }
 
+    .call-your-container{
+        margin: 110px 0 0 0;
+    }
+
+    .ode-right-col .call-your-container img{
+        width: 60%;
+        transform: rotate(-10deg);
+        right: 50px;
+        display: inline-block;
+        position: relative;
+        }
+
+    .ode-blurbs span{
+        text-transform: uppercase;
+        font-size: 30px;
+        }
+
+    .ode-left-col p.ode-blurbs{
+
+        }
+
+    .ode-left-col p.ode-blurbs{
+        margin: 75% 0 5px 0;
+        }
+
+    .ode-right-col p.ode-blurbs{
+        margin: 30px 0 5px 0;
+        }
+
+    .ode-left-col, .ode-mid-col, .ode-right-col{
+        display: inline-block;
+        position: relative;
+        width: 25%;
+        text-align: center;
+        float: right;
+    }
+
+    .ode-left-col img, .ode-mid-col img, .ode-right-col img{
+        width:93%;
     }
 /*ODE Marquee: END*/
 
