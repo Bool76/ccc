@@ -288,7 +288,7 @@
 
 /*ODE Marquee: START*/
     .four{
-        background-image: linear-gradient(#fff 50%, #979797);
+        background-image: linear-gradient(#fff 50%, #03884e);
     }
 
     .ode-message-container{
@@ -297,7 +297,7 @@
         background-image: url(/images/bubbles-background-04.png);
         background-position: center;
         background-size: inherit;
-        width: 20%;
+        width: 18%;
         height:100%;
         box-shadow: 8px 0px 10px 1px rgba(0, 0, 0, 0.6);
         text-align: center;
@@ -306,9 +306,9 @@
     .ode-message-container h4{
         /*font-family: 'Josefin Sans', sans-serif;*/
         color: white;
-        padding: 25% 0 0 0;
+        padding: 45% 0 0 0;
         text-align: right;
-        font-size: 2.3em;
+        font-size: 1.5em;
         line-height: 1.65em;
         width: 90%;
         display: inline-block;
@@ -360,27 +360,27 @@
         }
 
     .ode-left-col p.ode-blurbs{
-
-        }
-
-    .ode-left-col p.ode-blurbs{
-        margin: 75% 0 5px 0;
+        margin: 258px 0 5px 0;
         }
 
     .ode-right-col p.ode-blurbs{
-        margin: 30px 0 5px 0;
+        margin: 12px 0 5px 0;
         }
 
     .ode-left-col, .ode-mid-col, .ode-right-col{
         display: inline-block;
         position: relative;
-        width: 25%;
+        width: 26%;
         text-align: center;
         float: right;
     }
 
     .ode-left-col img, .ode-mid-col img, .ode-right-col img{
         width:93%;
+    }
+
+    .ode-mid-col p{
+        color:#fff;
     }
 /*ODE Marquee: END*/
 
@@ -393,6 +393,13 @@
   font-size: .9em;
   padding: 10px 15px;
  }
+    .ode-message-container h4{
+        font-size: 1.25em;
+    }
+
+    .ode-mid-col img{
+        padding: 25% 0 0 0;
+    }
 }
 
 
@@ -484,6 +491,50 @@
 
   /*Marquee STEP UP: END*/
 
+
+    /*Marquee ODE: START*/
+    .ode-message-container h4{
+        font-size: 1.10em;
+        padding: 70% 0 0 0;
+    }
+
+    .ode-mid-col, .ode-left-col{
+        display: none;
+    }
+
+    .call-your-container{
+        margin: 75px 0 0 0;
+        display: inline-block;
+        float: left;
+        width: 34%;
+    }
+
+    .ode-right-col{
+        width: 78%;
+        margin: 2% 1% 0 0;
+    }
+
+    .ode-right-col img{
+        float: right;
+        width: 65%;
+    }
+
+    .ode-right-col p.ode-blurbs{
+        display: inline-block;
+        float: right;
+        width: 45%;
+        margin: 84px 0 0 0;
+        font-size: 0.75em;
+    }
+
+    .ode-right-col .call-your-container img{
+        width: 100%;
+        right: inherit;
+        float: initial;
+    }
+
+
+    /*Marquee ODE: END*/
 }
 
 
@@ -555,6 +606,28 @@
      right:15%;
     }
   /*Step Up: END*/
+
+  /*ODE: START*/
+    .ode-right-col img{
+        float: none;
+        margin: 7% 1.0% 0 0;
+        width: 75%;
+    }
+
+    .ode-right-col p.ode-blurbs{
+        font-size: 0.65em;
+        margin: 17% 0 0 0;
+    }
+
+    .call-your-container{
+        margin: 15% 0 0 0;
+        float: initial;
+    }
+
+    .ode-message-container h4{
+        font-size: 0.95em;
+    }
+    /*ODE: END*/
 }
 
 
@@ -644,4 +717,32 @@
 
  /*Step Up: END*/
 
+ /*ODE Marquee: START*/
+    .ode-message-container{
+        width: 30%;
+    }
+
+    .ode-right-col{
+        width: 65%;
+    }
+
+    .ode-right-col img{
+        width: 80%;
+    }
+
+    .call-your-container{
+        margin: 25% 0 0 0;
+        width: 40%;
+    }
+
+    .ode-right-col p.ode-blurbs{
+        font-size: 0.30em;
+        margin: 25% 0 0 0;
+    }
+
+    .ode-blurbs span{
+        font-size: 4em;
+    }
+
+ /*ODE Marquee: END*/
 }
