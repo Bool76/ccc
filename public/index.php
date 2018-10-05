@@ -49,23 +49,56 @@
 												Building your child's future... creatively.
 											</div>
 								 </div>
-									<div class="slider-img two" id="2"/>
-											<a id="jobs-marquee-applyNow" href="jobOpportunities.php">
-													<p>
-														Apply Now
-													</p>
-											</a>
-											<div id="jobs-marquee-joinOur">
-												<p>
-													<a href="jobOpportunities.php">Join Our Team</a>
-												</p>
-											</div>
-											<div id="jobs-marquee-ourCompany-desktop">
-													<p id="jobs-marquee-ourCompany-desktopCopy">
-														Our <strong>company</strong> is looking for energetic, friendly, professionals with a passion for teaching
-														and working  with young children.
-													</p>
-											</div>
+                <div class="slider-img four" id="4"/>
+                  <div class="ode-message-container">
+                    <h4>
+                      It's not too late,
+                      enroll your 4 year old
+                      in our free 1/2 day
+                      preschool program
+                      TODAY!
+                    </h4>
+                  </div>
+                    <div class="ode-left-col">
+                      <p class="ode-blurbs">
+                        <span>Call</span> or walk-in to secure your spot today!
+                      </p>
+                      <img src="/images/marquees/ode/ode-boy-2.png">
+                    </div>
+                    <div class="ode-mid-col">
+                      <img src="/images/marquees/ode/ode-boy-1.png">
+                      <p class="ode-blurbs">
+                        <span>Free</span> high quality program if you qualify
+                      </p>
+                    </div>
+                    <div class="ode-right-col">
+                      <div class="call-your-container">
+                        <img src="/images/marquees/ode/call-your-closest.png">
+                      </div>
+                      <p class="ode-blurbs">
+                        <span>Prepare</span> your child for Kindergarten now
+                      </p>
+                      <img src="/images/marquees/ode/ode-girls-1.png">
+                    </div>
+
+                </div>
+                <div class="slider-img two" id="2"/>
+                  <a id="jobs-marquee-applyNow" href="jobOpportunities.php">
+                    <p>
+                      Apply Now
+                    </p>
+                  </a>
+                  <div id="jobs-marquee-joinOur">
+                    <p>
+                      <a href="jobOpportunities.php">Join Our Team</a>
+                    </p>
+                  </div>
+                  <div id="jobs-marquee-ourCompany-desktop">
+                    <p id="jobs-marquee-ourCompany-desktopCopy">
+                      Our <strong>company</strong> is looking for energetic, friendly, professionals with a passion for teaching
+                      and working  with young children.
+                    </p>
+                  </div>
 											<div id="jobs-marquee-ourCompany-mobile">
 												<p id="jobs-marquee-ourCompany-mobileCopy">
 													Our <strong>company</strong> is looking for energetic, friendly, professionals with a passion for teaching
