@@ -187,13 +187,13 @@
 																<h2>Director Bio</h2>
 														</div>
 														<div class="directorBio-wrapper">
-															 <h3 class="director-title-mobile">Char Stille</h3>
+															 <h3 class="director-title-mobile">Angela Staso</h3>
 																<div class="director-paragraph">
 																	<p>
-																		Char Stille received her Bachelor of Science degree in Elementary Education with specializations in Early Childhood and Science from Eastern Michigan University and has been with the Creative Child Care family as a Center Director since 2013. Before joining the Creative family, Char spent 15 years as an Administrator in Early Childhood programs. She is also a Professional Development Instructor dedicated to providing additional teaching and educational resources for all the teachers in our four locations. Char's many years of experience in the field greatly benefits Creative Child Care and the families and children who walk through our doors each day!
+                                    Angela joined Creative Child Care, Inc. in 2010 and served successfully as North’s Assistant Director until 2018 when she was promoted to the Director position. Angela graduated from Otterbein University in 1997 with a Bachelors degree in Elementary Education. After graduating from Otterbein she worked for 7 years as a Director at a YWCA in Westerville for their before and after school program. She has also worked at a lead teacher and curriculum director. Angela’s knowledge of early childhood education and her proven commitment to Creative Child Care and the North center is a tremendous asset to the families we serve!
 																</p>
 																</div>
-																<h3 class="director-title-desktop">Char Stille</h3>
+																<h3 class="director-title-desktop">Angela Staso</h3>
 														</div>
 
 												</div>
